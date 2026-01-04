@@ -1,0 +1,475 @@
+{
+  "intents": [
+
+    {
+      "tag": "greeting",
+      "patterns": [
+        "halo",
+        "hai",
+        "selamat pagi",
+        "selamat siang",
+        "selamat sore",
+        "permisi",
+        "halo bot",
+        "hai bot",
+        "p"
+      ],
+      "responses": [
+        "Halo 👋 Saya siap membantu urusan akademik kamu.",
+        "Hai 😊 Ada yang bisa saya bantu terkait akademik?"
+      ]
+    },
+
+
+    {
+      "tag": "krs_pengertian",
+      "patterns": [
+        "krs",
+        "apa itu krs",
+        "krs itu apa",
+        "pengertian krs",
+        "fungsi krs",
+        "kartu rencana studi"
+      ],
+      "responses": [
+        "KRS (Kartu Rencana Studi) adalah daftar mata kuliah yang diambil mahasiswa pada satu semester."
+      ]
+    },
+
+    {
+      "tag": "krs_cara",
+      "patterns": [
+        "cara isi krs",
+        "gimana cara isi krs",
+        "bagaimana pengisian krs",
+        "langkah isi krs",
+        "prosedur pengisian krs",
+        "isi krs gimana",
+        "cara ambil mata kuliah",
+        "mengisi krs"
+      ],
+      "responses": [
+        "Langkah pengisian KRS:\n1. Login Portal Akademik\n2. Pilih menu KRS\n3. Pilih mata kuliah sesuai semester & SKS\n4. Simpan\n5. Ajukan persetujuan dosen wali."
+      ]
+    },
+
+    {
+      "tag": "krs_gagal",
+      "patterns": [
+        "krs tidak bisa diisi",
+        "ga bisa isi krs",
+        "kenapa krs tidak bisa",
+        "krs error",
+        "krs gagal",
+        "tidak bisa ambil krs",
+        "krs belum bisa"
+      ],
+      "responses": [
+        "KRS tidak bisa diisi biasanya karena:\n- UKT belum dibayar\n- Belum masa KRS\n- IP semester sebelumnya tidak memenuhi\n- Belum disetujui dosen wali."
+      ]
+    },
+
+    {
+      "tag": "krs_setelah_isi",
+      "patterns": [
+        "setelah isi krs",
+        "krs sudah diisi",
+        "habis isi krs ngapain",
+        "krs selanjutnya apa",
+        "krs perlu dicetak"
+      ],
+      "responses": [
+        "Setelah KRS diisi, pastikan status disetujui dosen wali dan simpan atau cetak bukti KRS."
+      ]
+    },
+
+  
+    {
+      "tag": "ukt_pengertian",
+      "patterns": [
+        "ukt",
+        "apa itu ukt",
+        "ukt itu apa",
+        "biaya kuliah",
+        "uang kuliah",
+        "biaya pendidikan"
+      ],
+      "responses": [
+        "UKT (Uang Kuliah Tunggal) adalah biaya pendidikan yang dibayarkan mahasiswa setiap semester."
+      ]
+    },
+
+    {
+      "tag": "ukt_cara_bayar",
+      "patterns": [
+        "cara bayar ukt",
+        "gimana bayar ukt",
+        "bayar ukt gimana",
+        "pembayaran ukt",
+        "ukt dibayar dimana",
+        "cara melunasi ukt"
+      ],
+      "responses": [
+        "Pembayaran UKT dilakukan melalui Virtual Account bank mitra kampus menggunakan ATM, mobile banking, atau internet banking."
+      ]
+    },
+
+    {
+      "tag": "ukt_bank",
+      "patterns": [
+        "bayar ukt lewat bank apa",
+        "bank ukt",
+        "ukt pakai bank apa",
+        "pembayaran ukt lewat apa"
+      ],
+      "responses": [
+        "Pembayaran UKT biasanya menggunakan bank mitra kampus seperti BNI, BRI, BTN, atau Mandiri (sesuai kebijakan kampus)."
+      ]
+    },
+
+    {
+      "tag": "ukt_nomor_rekening",
+      "patterns": [
+        "nomor rekening ukt",
+        "nomor virtual account",
+        "nomor va ukt",
+        "rekening pembayaran ukt",
+        "nomor banknya berapa"
+      ],
+      "responses": [
+        "Nomor Virtual Account dapat dilihat di Portal Akademik mahasiswa pada menu Pembayaran UKT."
+      ]
+    },
+
+    {
+      "tag": "ukt_batas_waktu",
+      "patterns": [
+        "ukt sampai kapan",
+        "batas bayar ukt",
+        "ukt kapan dibayar",
+        "deadline bayar ukt",
+        "ukt terakhir kapan"
+      ],
+      "responses": [
+        "Batas waktu pembayaran UKT mengikuti kalender akademik dan tercantum di Portal Akademik."
+      ]
+    },
+
+    {
+      "tag": "ukt_denda",
+      "patterns": [
+        "ukt terlambat",
+        "telat bayar ukt",
+        "denda ukt",
+        "belum bayar ukt",
+        "ukt lewat deadline"
+      ],
+      "responses": [
+        "Jika terlambat membayar UKT, mahasiswa dapat dikenakan denda atau diblokir akses akademiknya sesuai aturan kampus."
+      ]
+    },
+
+
+    {
+      "tag": "khs_pengertian",
+      "patterns": [
+        "khs",
+        "apa itu khs",
+        "hasil studi",
+        "nilai semester",
+        "khs itu apa"
+      ],
+      "responses": [
+        "KHS (Kartu Hasil Studi) berisi nilai mata kuliah yang diambil mahasiswa pada satu semester."
+      ]
+    },
+
+{
+  "tag": "khs_lihat",
+  "patterns": [
+    "lihat khs",
+    "khs lihat",
+    "cek khs",
+    "khs saya",
+    "nilai saya",
+    "lihat nilai",
+    "cek nilai"
+  ],
+  "responses": [
+    "KHS dapat dilihat melalui Portal Akademik setelah seluruh nilai mata kuliah diinput oleh dosen."
+  ]
+},
+
+
+{
+  "tag": "ip_ipk",
+  "patterns": [
+    "ip",
+    "ipk",
+    "apa itu ip",
+    "apa itu ipk",
+    "jelaskan ip",
+    "jelaskan ipk",
+    "ip itu apa",
+    "ipk itu apa",
+    "perbedaan ip dan ipk",
+    "beda ip dan ipk",
+    "ip sama ipk bedanya apa",
+    "apa bedanya ip dan ipk",
+    "fungsi ip dan ipk",
+    "ip dipakai buat apa",
+    "ipk dipakai buat apa",
+    "nilai ip dan ipk",
+    "cara menghitung ip",
+    "cara menghitung ipk",
+    "ip per semester",
+    "ipk keseluruhan"
+  ],
+  "responses": [
+    "IP (Indeks Prestasi) adalah nilai rata-rata hasil studi mahasiswa dalam satu semester, sedangkan IPK (Indeks Prestasi Kumulatif) merupakan rata-rata IP dari seluruh semester yang telah ditempuh.",
+    "Perbedaan IP dan IPK terletak pada cakupannya. IP dihitung per semester, sementara IPK dihitung dari akumulasi seluruh semester.",
+    "IP menunjukkan performa akademik mahasiswa dalam satu semester tertentu, sedangkan IPK menggambarkan prestasi akademik mahasiswa secara keseluruhan.",
+    "IP digunakan untuk mengevaluasi hasil studi per semester, sedangkan IPK biasanya menjadi syarat untuk kelulusan, beasiswa, atau melanjutkan studi.",
+    "IP adalah indikator nilai akademik sementara, sedangkan IPK merupakan indikator nilai akademik jangka panjang selama masa studi."
+  ]
+},
+
+{
+  "tag": "daftar_fakultas",
+  "patterns": [
+    "fakultas apa saja",
+    "ada fakultas apa saja",
+    "daftar fakultas",
+    "fakultas di universitas ini",
+    "fakultas yang tersedia",
+    "sebutkan fakultas",
+    "kampus ini punya fakultas apa",
+    "fakultas di kampus ini apa saja"
+  ],
+  "responses": [
+    "Universitas ini memiliki beberapa fakultas, yaitu Fakultas Teknik, Fakultas Ilmu Komputer, Fakultas Ekonomi dan Bisnis, Fakultas Ilmu Sosial dan Ilmu Politik, Fakultas Keguruan dan Ilmu Pendidikan, serta Fakultas Hukum."
+  ]
+},
+
+{
+  "tag": "prodi_fakultas_teknik",
+  "patterns": [
+    "fakultas teknik ada prodi apa",
+    "prodi fakultas teknik",
+    "jurusan di fakultas teknik",
+    "fakultas teknik jurusannya apa saja",
+    "program studi fakultas teknik",
+    "teknik ada jurusan apa"
+  ],
+  "responses": [
+    "Fakultas Teknik memiliki program studi Teknik Elektro, Teknik Mesin, dan Teknik Sipil."
+  ]
+},
+
+{
+  "tag": "prodi_fakultas_ilkom",
+  "patterns": [
+    "fakultas ilmu komputer ada prodi apa",
+    "prodi fakultas ilmu komputer",
+    "jurusan fakultas ilmu komputer",
+    "ilkom ada jurusan apa saja",
+    "program studi fakultas ilmu komputer",
+    "fakultas komputer jurusannya apa"
+  ],
+  "responses": [
+    "Fakultas Ilmu Komputer memiliki program studi Teknik Informatika, Sistem Informasi, dan Teknologi Informasi."
+  ]
+},
+
+{
+  "tag": "prodi_fakultas_feb",
+  "patterns": [
+    "fakultas ekonomi dan bisnis ada prodi apa",
+    "prodi fakultas ekonomi",
+    "jurusan fakultas ekonomi dan bisnis",
+    "feb ada jurusan apa",
+    "program studi fakultas ekonomi",
+    "fakultas bisnis jurusannya apa"
+  ],
+  "responses": [
+    "Fakultas Ekonomi dan Bisnis memiliki program studi Manajemen, Akuntansi, dan Ekonomi Pembangunan."
+  ]
+},
+
+{
+  "tag": "prodi_fakultas_fisip",
+  "patterns": [
+    "fakultas ilmu sosial dan ilmu politik ada prodi apa",
+    "prodi fakultas fisip",
+    "jurusan fisip",
+    "fisip ada jurusan apa saja",
+    "program studi fisip",
+    "fakultas ilmu sosial jurusannya apa"
+  ],
+  "responses": [
+    "Fakultas Ilmu Sosial dan Ilmu Politik memiliki program studi Ilmu Komunikasi, Administrasi Publik, dan Ilmu Pemerintahan."
+  ]
+},
+
+{
+  "tag": "prodi_fakultas_fkip",
+  "patterns": [
+    "fakultas keguruan dan ilmu pendidikan ada prodi apa",
+    "prodi fakultas fkip",
+    "jurusan fkip",
+    "fkip ada jurusan apa saja",
+    "program studi fkip",
+    "fakultas pendidikan jurusannya apa"
+  ],
+  "responses": [
+    "Fakultas Keguruan dan Ilmu Pendidikan memiliki program studi Pendidikan Matematika, Pendidikan Bahasa Indonesia, dan Pendidikan Bahasa Inggris."
+  ]
+},
+
+{
+  "tag": "prodi_fakultas_hukum",
+  "patterns": [
+    "fakultas hukum ada prodi apa",
+    "prodi fakultas hukum",
+    "jurusan fakultas hukum",
+    "fakultas hukum jurusannya apa",
+    "program studi fakultas hukum",
+    "kuliah hukum ada jurusan apa"
+  ],
+  "responses": [
+    "Fakultas Hukum memiliki program studi Ilmu Hukum."
+  ]
+},
+
+{
+  "tag": "biaya_kuliah_umum",
+  "patterns": [
+    "biaya kuliah",
+    "uang kuliah",
+    "biaya kuliah berapa",
+    "kuliah bayar berapa",
+    "biaya pendidikan",
+    "bayar kuliah berapa",
+    "biaya kuliah kampus ini"
+  ],
+  "responses": [
+    "Biaya kuliah menggunakan sistem UKT dan berbeda di setiap fakultas. Silakan sebutkan fakultas yang kamu maksud."
+  ]
+},
+
+
+
+{
+  "tag": "biaya_fakultas_teknik",
+  "patterns": [
+    "biaya kuliah fakultas teknik",
+    "uang kuliah fakultas teknik",
+    "ukt fakultas teknik",
+    "berapa biaya kuliah teknik",
+    "biaya semester fakultas teknik",
+    "kuliah teknik bayar berapa"
+  ],
+  "responses": [
+    "Biaya kuliah Fakultas Teknik menggunakan sistem UKT dengan kisaran Rp4.000.000 hingga Rp8.000.000 per semester, tergantung kemampuan ekonomi mahasiswa."
+  ]
+},
+
+{
+  "tag": "biaya_fakultas_ilkom",
+  "patterns": [
+    "biaya fakultas ilmu komputer",
+    "biaya kuliah fakultas ilmu komputer",
+    "ukt fakultas ilmu komputer",
+    "uang kuliah fakultas komputer",
+    "berapa biaya kuliah informatika",
+    "kuliah komputer bayar berapa"
+  ],
+  "responses": [
+    "Biaya kuliah Fakultas Ilmu Komputer menggunakan sistem UKT dengan kisaran Rp3.500.000 hingga Rp7.500.000 per semester."
+  ]
+},
+
+
+{
+  "tag": "biaya_fakultas_feb",
+  "patterns": [
+    "biaya fakultas ekonomi",
+    "biaya fakultas ekonomi dan bisnis",
+    "biaya kuliah fakultas ekonomi",
+    "ukt fakultas ekonomi",
+    "uang kuliah fakultas ekonomi",
+    "kuliah ekonomi bayar berapa"
+  ],
+  "responses": [
+    "Biaya kuliah Fakultas Ekonomi dan Bisnis berkisar antara Rp3.000.000 hingga Rp6.500.000 per semester sesuai golongan UKT."
+  ]
+},
+
+
+
+
+{
+  "tag": "biaya_fakultas_hukum",
+  "patterns": [
+    "biaya fakultas hukum",
+    "biaya kuliah fakultas hukum",
+    "ukt fakultas hukum",
+    "uang kuliah hukum",
+    "kuliah hukum bayar berapa"
+  ],
+  "responses": [
+    "Biaya kuliah Fakultas Hukum menggunakan sistem UKT dengan kisaran Rp3.000.000 hingga Rp6.000.000 per semester."
+  ]
+},
+
+ 
+{
+  "tag": "cara_daftar",
+  "patterns": [
+    "cara daftar",
+    "cara pendaftaran",
+    "bagaimana cara mendaftar",
+    "gimana cara daftar kuliah",
+    "cara daftar mahasiswa baru",
+    "pendaftaran mahasiswa baru",
+    "alur pendaftaran kuliah",
+    "tahapan pendaftaran mahasiswa",
+    "cara masuk universitas",
+    "daftar kuliah mulai dari mana",
+    "bagaimana proses pendaftaran",
+    "cara daftar online",
+    "pendaftaran kampus gimana",
+    "daftar kuliah lewat apa"
+  ],
+  "responses": [
+    "Pendaftaran mahasiswa baru dilakukan secara online melalui website resmi universitas. Calon mahasiswa membuat akun, mengisi formulir pendaftaran, mengunggah berkas, dan memilih program studi.",
+    "Untuk mendaftar kuliah, langkahnya adalah membuat akun pendaftaran online, melengkapi data diri, memilih fakultas dan program studi, lalu mengirimkan formulir pendaftaran.",
+    "Proses pendaftaran dimulai dengan registrasi akun di portal PMB, pengisian data, upload dokumen persyaratan, dan konfirmasi pendaftaran.",
+    "Pendaftaran mahasiswa baru dilakukan secara online. Setelah mengisi data dan memilih prodi, calon mahasiswa akan mengikuti tahapan seleksi sesuai jalur yang dipilih."
+  ]
+},
+
+
+
+
+{
+  "tag": "kontak_baak",
+  "patterns": [
+    "kontak baak",
+    "nomor baak",
+    "hubungi akademik",
+    "hubungi baak",
+    "bagian akademik",
+    "kontak akademik",
+    "nomor bagian akademik",
+    "email akademik",
+    "cara menghubungi akademik",
+    "saya mau hubungi baak"
+  ],
+  "responses": [
+    "BAAK melayani administrasi akademik mahasiswa pada jam kerja sesuai kebijakan kampus."
+  ]
+
+}
+]
+}

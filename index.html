@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Chatbot Akademik</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<div class="chat-container">
+    <div class="chat-header">
+        🎓 <span>CHATBOT AKADEMIK</span>
+        <small>Asisten Akademik Virtual</small>
+    </div>
+
+    <div class="chat-body" id="chat-body">
+        <!-- chat muncul di sini -->
+    </div>
+
+    <div class="chat-footer">
+        <input type="text" id="user-input" placeholder="Ketik pesan di sini..." autocomplete="off">
+        <button onclick="sendMessage()">➤</button>
+    </div>
+</div>
+
+<script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
